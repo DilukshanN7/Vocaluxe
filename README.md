@@ -5,13 +5,14 @@ This Python program extracts vocals from YouTube videos, leveraging Dropbox for 
     <ul>
         <li>Extracts vocals from YouTube videos efficiently.</li>
         <li>Utilizes Dropbox for file transfer.</li>
-        <li>Leverages Moises for vocal extraction without API usage.</li>
+        <li>Uses Moises.AI for vocal extraction without API usage.</li>
         <li>Easy-to-use Python script.</li>
     </ul>
 
   <h2>Usage:</h2>
       <ol>
         <li>Kindly modify the Dropbox API credentials on lines 86, 87, and 88 of the script. (Refer Dropbox Documentation)</li>
+        <li>Add your Dropbox Access Token in <code>token.txt</code>.</li>
         <li>Ensure you have Python 3.x installed.</li>
         <li>Install the required dependencies listed in <code>requirements.txt</code>.</li>
         <li>Obtain the YouTube video link you want to extract vocals from.</li>
